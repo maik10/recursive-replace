@@ -1,0 +1,36 @@
+.dropzone{
+	  border: 2px dashed #0087F7;
+	  border-radius: 5px;
+	  background: white;
+	  min-height: 150px;
+    display: none;
+}
+.dropzone.dz-clickable {
+  cursor: pointer;
+}
+.dropzone.dz-clickable .dz-message, .dropzone.dz-clickable .dz-message * {
+  cursor: pointer;
+}
+.dropzone .dz-message {
+  font-weight: 400;
+}
+.dropzone .dz-message {
+  text-align: center;
+  margin: 2em 0;
+}
+.dropzone, .dropzone * {
+  box-sizing: border-box;
+}
+.container{
+  width: 75%;
+  padding: 5%;
+}
+.dz-preview{
+  width: 20%;
+  background: gainsboro;
+  text-align: center;
+  display: inline-block;
+  margin-left: 2%;
+  margin-bottom: 2%;
+}
+.progress{display: none}
